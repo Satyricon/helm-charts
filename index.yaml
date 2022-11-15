@@ -2,20 +2,20 @@ apiVersion: v1
 entries:
   ado-agent-helm-chart:
   - apiVersion: v2
-    created: "2022-11-15T23:56:33.982486+02:00"
+    created: "2022-11-15T23:59:26.045974+02:00"
     dependencies:
     - name: aad-pod-identity
       repository: https://raw.githubusercontent.com/Azure/aad-pod-identity/master/charts/
       version: 4.1.14
     description: A Helm chart for deploying Azure Devops build agent on Kubernetes
-    digest: 2e98416a7869672a0fa0e3c282ccbb1b08cf3c2c49be9c5e624b8879f8f9b952
+    digest: ad3c0ec3391bd56c069c03096b2016c28a1e45d0248749c90eb049a31ed77912
     name: ado-agent-helm-chart
     type: application
     urls:
     - https://satyricon.github.io/helm-charts/ado-agent-helm-chart-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v2
-    created: "2022-11-15T23:56:33.98015+02:00"
+    created: "2022-11-15T23:59:26.043502+02:00"
     dependencies:
     - name: aad-pod-identity
       repository: https://raw.githubusercontent.com/Azure/aad-pod-identity/master/charts/
@@ -27,4 +27,4 @@ entries:
     urls:
     - https://satyricon.github.io/helm-charts/ado-agent-helm-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2022-11-15T23:56:33.978134+02:00"
+generated: "2022-11-15T23:59:26.040174+02:00"
